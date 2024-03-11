@@ -37,7 +37,7 @@ commands:
   - id: copyconfig
     exec:
       component: udi
-      commandLine: "mkdir /home/user/.continue && cp /projects/devspacedemos/continue-config.json /home/user/.continue/config.json"
+      commandLine: "mkdir /home/user/.continue && cp /projects/devspace-demos/continue-config.json /home/user/.continue/config.json"
 events:
   postStart:
     - pullmodel
