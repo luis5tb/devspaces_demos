@@ -21,8 +21,8 @@
       "model": "codellama-70b"
     },
     {
-      "title": "On-prem CodeLlama-13b",
-      "model": "codellama:13b",
+      "title": "On-prem Phi",
+      "model": "phi:latest",
       "apiBase": "http://localhost:11434",
       "provider": "ollama"
       }
